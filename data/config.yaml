@@ -1,0 +1,94 @@
+# Target repositories and expertise matrix for gh-galaxy-quest
+#
+# target_repos: GitHub repos to scan for unanswered Q&A discussions
+# expertise_matrix: keywords and domains that match your subject matter expertise
+#   Each entry has a domain name, keywords to match against, and a weight (1-10)
+
+target_repos:
+  - owner: aws
+    name: aws-cdk
+    categories: ["Q&A"]
+  - owner: aws
+    name: aws-cli
+    categories: ["Q&A"]
+  - owner: localstack
+    name: localstack
+    categories: ["Q&A"]
+  - owner: langchain-ai
+    name: langchain
+    categories: ["Q&A"]
+  - owner: anthropics
+    name: claude-code
+    categories: ["Q&A"]
+
+expertise_matrix:
+  - domain: electrical-engineering
+    weight: 9
+    keywords:
+      - power systems
+      - protection relay
+      - load flow
+      - short circuit
+      - NEC
+      - IEEE
+      - substation
+      - transformer
+
+  - domain: aws-security
+    weight: 9
+    keywords:
+      - IAM
+      - security group
+      - VPC
+      - CloudTrail
+      - GuardDuty
+      - KMS
+      - encryption
+      - least privilege
+      - WAF
+      - Shield
+
+  - domain: cloud-security
+    weight: 8
+    keywords:
+      - CISSP
+      - CCSP
+      - zero trust
+      - shared responsibility
+      - identity federation
+      - SAML
+      - OIDC
+
+  - domain: multi-agent-orchestration
+    weight: 10
+    keywords:
+      - multi-agent
+      - orchestration
+      - agent
+      - Claude Code
+      - tool use
+      - MCP
+      - function calling
+      - autonomous
+      - pipeline
+
+  - domain: serverless-ai
+    weight: 8
+    keywords:
+      - Lambda
+      - serverless
+      - API Gateway
+      - CloudFlare Workers
+      - edge function
+      - inference
+      - model deployment
+
+  - domain: python
+    weight: 7
+    keywords:
+      - poetry
+      - asyncio
+      - type hint
+      - pytest
+      - dataclass
+      - pydantic
