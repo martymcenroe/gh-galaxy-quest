@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gh-galaxy-quest"
+version = "0.1.0"
+description = "Human-in-the-loop pipeline to identify high-value GitHub discussions for Galaxy Brain achievement."
+authors = ["Marty McEnroe"]
+
+[tool.poetry.dependencies]
+python = "^3.14"
+requests = "^2.31.0"
+rich = "^13.7.0"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
