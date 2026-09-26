@@ -33,4 +33,4 @@ poetry run python src/hitl_console.py
 
 - Branch protection requires approving review (Cerberus-AZ auto-approves)
 - Squash merge only
-- Every PR references an issue: title ends with (#N), body contains Closes #N
+- The naked `(#N)` format is permanently banned. You must NEVER use it in commit messages or PR titles. You must append exactly `Closes #N` to every git commit message.
