@@ -1,4 +1,5 @@
 [tool.poetry]
+package-mode = false
 name = "gh-galaxy-quest"
 version = "0.1.0"
 description = "Human-in-the-loop pipeline to identify high-value GitHub discussions for Galaxy Brain achievement."
